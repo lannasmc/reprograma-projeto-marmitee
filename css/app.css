@@ -113,15 +113,18 @@
 }
 
 @media(min-width:425px) {
+
   .app01 {
     margin-bottom: 70vh;
   }
+
 }
 
 @media(min-width:768px) {
   .app-imagem img {
     max-height: 60vh;
   }
+
   .app-funcionalidades1 {
     grid-area: icones1;
     display: flex;
@@ -129,26 +132,32 @@
     justify-content: space-around;
     align-items: flex-end;
   }
+
   .app-funcionalidades2 {
     grid-area: icones2;
     flex-direction: column;
     align-items: flex-start;
   }
+
   .app-funcionalidades3 {
     display: none;
   }
+
   .app-icones {
     max-width: 128px;
   }
+
   .app-imagem {
     grid-area: imagem-celular;
     display: flex;
     justify-content: center;
     align-items: center;
   }
+
   .grid-app01-conteudo {
     grid-template-areas: 'icones1 imagem-celular icones2' 'infos infos infos';
   }
+
   .app01 {
     margin: 5vh 0 40vh 0;
   }

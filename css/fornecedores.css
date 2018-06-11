@@ -6,7 +6,6 @@
   background-size: cover;
   background-repeat: no-repeat;
   height: 50vh;
-  /* text-shadow: 3px 3px 1px gray; */
 }
 
 /* #region nutri01 */
@@ -90,20 +89,25 @@
 }
 
 @media(min-width:768px) {
+
   .grid-nutri01-conteudo {
     grid-template-areas: 'chamada-nutri imagem-nutri';
     margin-bottom: 5vh;
   }
+
   .grid-nutri02-conteudo {
     grid-template-areas: 'imagem-nutri chamada-nutri';
     margin-bottom: 5vh;
   }
+
   .nutri-chamada {
     padding: 5vh 0;
   }
+
   .nutri01-grid {
     height: 80vh;
   }
+
 }
 
 /* #endregion */
@@ -144,8 +148,6 @@
 }
 
 .nutri-card2 {
-  /* color: white; */
-  /* font-size: 20px; */
   position: absolute;
   top: 50%;
   left: 50%;
