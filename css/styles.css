@@ -39,7 +39,7 @@ nav {
 }
 
 header {
-  background: url(../fotos/Marmitee.jpg);
+  background: url(../images/Marmitee.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -93,14 +93,14 @@ header {
 }
 
 #image-flip-1 {
-  background: url(../fotos/nutricionist.jpg);
+  background: url(../images/nutricionist.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #image-flip-2 {
-  background: url(../fotos/marmitas.jpg);
+  background: url(../images/marmitas.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
